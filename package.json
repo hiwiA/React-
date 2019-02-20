@@ -3,9 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bootstrap": "^4.3.1",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "immutable": "^4.0.0-rc.12",
     "react": "^16.8.1",
+    "react-bootstrap": "^1.0.0-beta.5",
     "react-dom": "^16.8.1",
-    "react-scripts": "2.1.4"
+    "react-reveal": "^1.2.2",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.4",
+    "webpack": "^4.28.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -21,5 +29,12 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "/home.ejs",
+  "devDependencies": {
+    "ws": "3.3.2"
+  },
+  "author": "",
+  "license": "ISC"
 }
